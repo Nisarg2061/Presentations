@@ -1,4 +1,5 @@
-# Go based presentations 
+# Presentations made using Go
+## Presentations
 [Example Presentation](https://talks.godoc.org/github.com/Nisarg2061/Presentations/example.slide)
 
 ## Step by step guide to view the slides locally
