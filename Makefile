@@ -1,9 +1,8 @@
 install:
-	 go install golang.org/x/tools/cmd/present@latest
+	 @go install golang.org/x/tools/cmd/present@latest
 
 source:
-	go install golang.org/x/tools/cmd/present@latest
-	source ~/.zshrc
+	@go install golang.org/x/tools/cmd/present@latest
 
 present: install source
-	present
+	@present
