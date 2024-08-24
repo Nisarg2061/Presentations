@@ -1,0 +1,21 @@
+Differences Between Go and Python
+
+Nisarg Khodke
+nisargkhodke@gmail.com
+
+* Go
+- *Type*: Compiled
+- *Typing*: Statically typed
+- *Concurrency*: Goroutines
+- *Library*: Strong standard library
+
+
+* Python
+- *Type*: Interpreted
+- *Typing*: Dynamically typed
+- *Concurrency*: Threading
+- *Library*: Extensive third-party libraries
+
+* Go Example
+
+.play example.go /^//START/,/^//END/ HL12
