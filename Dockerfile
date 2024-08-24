@@ -18,4 +18,4 @@ RUN go install golang.org/x/tools/cmd/present@latest
 EXPOSE 3999
 
 # Set the command to run the `present` tool
-CMD ["present"]
+CMD ["present", "-http", "0.0.0.0:3999"]
