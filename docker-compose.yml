@@ -1,8 +1,0 @@
-services:
-  presentation:
-    container_name: presentation
-    build: .
-    image: presentation:latest
-    ports:
-      - "3999:3999"
-
